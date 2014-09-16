@@ -1,5 +1,7 @@
 # http://docs.docker.com/reference/builder
-# Base openSUSE 13.1 image (boombatower/opensuse).
+# Updated base openSUSE 13.1 image.
+# - boombatower/opensuse:latest
+# - boombatower/opensuse:13.1
 
 FROM opensuse:13.1
 MAINTAINER Jimmy Berry <jimmy@boombatower.com>
