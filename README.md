@@ -17,7 +17,7 @@ Otherwise, a specific version (>= 13.1) can be referenced using the version as a
 
     FROM boombatower/opensuse:13.1
 
-Following the [recommendation of the official image creators](https://news.opensuse.org/2014/08/07/official-docker-containers/) `zypper` has been configured to automatically import repository gpg keys so new repositories can be added easily.
+Following the [recommendation of the official image creators](https://news.opensuse.org/2014/08/07/official-docker-containers/) `zypper refresh` was invoked with the option to import gpg keys so further `zypper` commands such as package installation should work nicely.
 
 docker registry
 ---------------
