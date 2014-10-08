@@ -2,6 +2,7 @@
 # Updated base openSUSE 13.1 image.
 # - boombatower/opensuse:latest
 # - boombatower/opensuse:13.1
+# - boombatower/opensuse:bottle
 
 FROM opensuse:13.1
 MAINTAINER Jimmy Berry <jimmy@boombatower.com>
