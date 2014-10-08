@@ -7,5 +7,6 @@ FROM opensuse:13.1
 MAINTAINER Jimmy Berry <jimmy@boombatower.com>
 
 # Update base software.
+# No longer seems to work with simple `zypper update`.
 RUN zypper -n --gpg-auto-import-keys refresh && \
-    zypper -n update
+    zypper -n dist-upgrade
