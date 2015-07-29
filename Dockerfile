@@ -1,10 +1,8 @@
 # http://docs.docker.com/reference/builder
-# Updated base openSUSE 13.2 image.
-# - boombatower/opensuse:latest
-# - boombatower/opensuse:13.2
-# - boombatower/opensuse:harlequin
+# Updated base openSUSE tumbleweed image.
+# - boombatower/opensuse:tumbleweed
 
-FROM opensuse:13.2
+FROM opensuse:tumbleweed
 MAINTAINER Jimmy Berry <jimmy@boombatower.com>
 
 # Update base software.
