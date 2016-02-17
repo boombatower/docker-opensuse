@@ -11,7 +11,8 @@ tags
 Currently provided tags:
 
 - tumbleweed
-- latest (13.2)
+- latest (42.1)
+- 42.1 or leap
 - 13.2 or harlequin
 - 13.1 or bottle
 
