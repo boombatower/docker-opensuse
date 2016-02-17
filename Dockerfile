@@ -1,8 +1,9 @@
 # http://docs.docker.com/reference/builder
-# Updated base openSUSE tumbleweed image.
-# - boombatower/opensuse:tumbleweed
+# Updated base openSUSE 42.1 image.
+# - boombatower/opensuse:42.1
+# - boombatower/opensuse:leap
 
-FROM opensuse:tumbleweed
+FROM opensuse:42.1
 MAINTAINER Jimmy Berry <jimmy@boombatower.com>
 
 # Update base software.
